@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int tam;
+	float *pontos_X = NULL;
+	float *pontos_Fx = NULL;
+	printf("\nQuantidade de pontos: ");
+	scanf("%d", &tam);
+	for(i = 0; i < tam; i++)
+	{
+		printf("\nValor do %do X: ", i + 1);
+		scanf("%f", &pontos_X);
+		printf("\nValor do %do F(x): ", i + 1);
+		scanf("%f", &pontos_Fx);
+	}
+	
+	return 0;
+}
